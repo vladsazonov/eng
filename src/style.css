@@ -1,0 +1,30 @@
+.MuiBackdrop {
+
+    background-color: rgba(0, 0, 0, 0) !important;
+
+}
+
+.MuiPaper-elevation {
+    box-shadow: 0px 0 0 0 rgba(0, 0, 0, 0.2), 0px 0 0 0 rgba(0, 0, 0, 0.14), 0px 0 0 0 rgba(0, 0, 0, 0.12) !important;
+}
+
+.MuiBackdrop-root-248 {
+
+    background-color: rgba(255, 255, 255, 0) !important;
+
+}
+
+.MuiBackdrop-root-150 {
+
+    background-color: rgba(0, 0, 0, 0) !important;
+
+}
+
+.MuiPaper-elevation24-178 {
+    box-shadow: 0px 0 0 0 rgba(0, 0, 0, 0.2), 0px 0 0 0 rgba(0, 0, 0, 0.14), 0px 0 0 0 rgba(0, 0, 0, 0.12) !important;
+}
+
+
+.MuiPaper-root-152 {
+    background-color: #dce5ff!important;
+}

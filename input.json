@@ -1,0 +1,62 @@
+{
+  "document": "Test document",
+  "result": null,
+  "accepting": [
+    {
+      "condition": "or",
+      "users": [
+        {
+          "user": "User 1",
+          "result": null
+        },
+        {
+          "user": "User 2",
+          "result": null
+        },
+        {
+          "user": "User 3",
+          "result": null
+        }
+      ]
+    },
+    {
+      "condition": "and",
+      "users": [
+        {
+          "user": "User 4",
+          "result": null
+        },
+        {
+          "user": "User 5",
+          "result": null
+        }
+      ]
+    },
+     {
+      "condition": "or",
+      "users": [
+        {
+          "user": "User 6",
+          "result": null
+        },
+        {
+          "user": "User 7",
+          "result": null
+        },
+        {
+          "user": "User 8",
+          "result": null
+        }
+      ]
+    },
+    {
+      "condition": "",
+      "users": [
+        {
+          "user": "User 9",
+          "result": null
+        }
+      ]
+    }
+  ]
+}

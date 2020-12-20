@@ -1,0 +1,94 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "document",
+    "result",
+    "accepting"
+  ],
+  "properties": {
+    "document": {
+      "$id": "#/properties/document",
+      "type": "string",
+      "title": "The Document Schema",
+      "default": "",
+      "examples": [
+        "Document about you"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "result": {
+      "$id": "#/properties/result",
+      "type": "null",
+      "title": "The Result Schema",
+      "default": null,
+      "examples": [
+        null
+      ]
+    },
+    "accepting": {
+      "$id": "#/properties/accepting",
+      "type": "array",
+      "title": "The Accepting Schema",
+      "items": {
+        "$id": "#/properties/accepting/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "condition",
+          "users"
+        ],
+        "properties": {
+          "condition": {
+            "$id": "#/properties/accepting/items/properties/condition",
+            "type": "string",
+            "title": "The Condition Schema",
+            "default": "",
+            "examples": [
+              "or"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "users": {
+            "$id": "#/properties/accepting/items/properties/users",
+            "type": "array",
+            "title": "The Users Schema",
+            "items": {
+              "$id": "#/properties/accepting/items/properties/users/items",
+              "type": "object",
+              "title": "The Items Schema",
+              "required": [
+                "user",
+                "result"
+              ],
+              "properties": {
+                "user": {
+                  "$id": "#/properties/accepting/items/properties/users/items/properties/user",
+                  "type": "string",
+                  "title": "The User Schema",
+                  "default": "",
+                  "examples": [
+                    "user1"
+                  ],
+                  "pattern": "^(.*)$"
+                },
+                "result": {
+                  "$id": "#/properties/accepting/items/properties/users/items/properties/result",
+                  "type": "null",
+                  "title": "The Result Schema",
+                  "default": null,
+                  "examples": [
+                    null
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
